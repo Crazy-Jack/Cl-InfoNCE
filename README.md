@@ -52,6 +52,7 @@ bash run_clinfonce.sh level_12 0,1,2,3
 After pretrianing, use `run_eval.sh` to perform linear evulation protocal. Suppose the model is saved in `<ckpt_path>`, then run the following to see the linear evaluation performance:
 
 ```
+cd scripts
 bash run_eval.sh <ckpt_path> 
 ```
 
