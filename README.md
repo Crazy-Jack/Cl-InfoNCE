@@ -29,7 +29,7 @@ data_processing
 |   ├── train        (unzip from ILSVRC-2012)
 │   └── val          (unzip from ILSVRC-2012)
 ```
-`rank_H` is the content of `--instruction rank_H` flag, which contains `meta_data_train.csv` and `meta_data_val.csv` instrucitons files for different level of auxiliary information used for Cl-InfoNCE. 
+`rank_H` is the folder name that is passed to `--instruction rank_H` flag. It should contains `meta_data_train.csv` and `meta_data_val.csv` instrucitons files for different level of auxiliary information used for Cl-InfoNCE. See the file for details. 
 
 
 ## Pretraining using Cl-InfoNCE
