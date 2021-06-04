@@ -91,7 +91,7 @@ def set_parser():
                         help='meta data for ssl testing')
     parser.add_argument('--batch_size', type=int, default=256, help='batch_size')
     parser.add_argument('--epochs', type=int, default=100, help='epochs')
-    parser.add_argument('--latent_class', type=str, required=True)
+    parser.add_argument('--instruction', type=str, required=True)
     parser.add_argument('--overwrite', action='store_true',
                         help='if true, it will allow the program to overwrite any results')
     parser.add_argument('--load_memory', action='store_true',

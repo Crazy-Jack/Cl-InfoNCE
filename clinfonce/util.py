@@ -367,7 +367,7 @@ def set_parser(parser_str, additional_argu_func=None, if_linear=False):
     parser.add_argument('--save_path', type=str, default='/projects/rsalakhugroup/tianqinl/train_related', help='where to save file')
     parser.add_argument('--num_workers', type=int, default=8, help='num of workers to use')
     parser.add_argument('--epochs', type=int, default=500, help='number of training epochs')
-    parser.add_argument('--method', type=str, required=True, choices=['SupCE', 'SupCon', 'SimCLR', 'WeakSupCon', 'CE'])
+    parser.add_argument('--method', type=str, default="SupCon")
     parser.add_argument('--instruction', type=str, required=True)
     parser.add_argument('--model', type=str, default='resnet50')
     parser.add_argument('--dataset', type=str, required=True, help='what dataset to use')

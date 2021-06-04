@@ -7,9 +7,8 @@ instruction="hier";
 meta_file_train="meta_data_train.csv";
 
 ckpt=$1;
-eval_epoch=$2;
 
-command="python ../clinfonce/main_linear.py --ckpt "$ckpt/ckpt_epoch_$eval_epoch.pth" \
+command="python ../clinfonce/main_linear.py --ckpt $ckpt \
 --learning_rate 0.3 \
 --lr_scheduling cosine \
 --epochs 100 --instruction $instruction \
