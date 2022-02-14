@@ -1,5 +1,5 @@
 # Cl-InfoNCE
-This repo contains official pytorch implementation for Cl-InfoNCE. Cl-InfoNCE can incorporate different level of supervision into contrastive pretraining. 
+This repo contains official pytorch implementation for [Cl-InfoNCE](https://openreview.net/pdf?id=MSwEFaztwkE). Cl-InfoNCE can incorporate different level of supervision into contrastive pretraining. 
 
 ![](img/illus.png)
 
