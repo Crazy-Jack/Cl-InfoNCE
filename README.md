@@ -56,6 +56,6 @@ cd scripts
 bash run_eval.sh <ckpt_path> 
 ```
 
-
-## Citation
+## Additional Repo
+We implemented a dual head version of Cl-InfoNCE (one projection head for Cl-InfoNCE, one projection head for InfoNCE) to further improve unsupervised representation learning using Cl-InfoNCE. The implement can be found [here](https://github.com/Crazy-Jack/Cl-InfoNCE-ImageNet100) which reproduces the ImageNet-100* results in Supplementary A.1 Table 3.
 
